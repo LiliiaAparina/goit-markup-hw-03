@@ -20,26 +20,28 @@
   <body>
     <!-- Site header -->
     <header>
-      <div class="container">
-        <nav>
+      <div class="container main-nav">
+        <nav class="site-nav">
           <a href="./index.html" class="logo"
             ><span class="logo-accent">Web</span>Studio</a
           >
 
-          <ul class="site-nav list">
-            <li><a href="./index.html" class="link">Studio</a></li>
-            <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-            <li><a href="" class="link">Contacts</a></li>
+          <ul class="site-nav-list list">
+            <li class="item"><a href="./index.html" class="link">Studio</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
           </ul>
         </nav>
-        <address>
-          <ul class="contacts list">
-            <li>
+        <address class="contacts">
+          <ul class="contacts-list list">
+            <li class="item">
               <a href="mailto:info@devstudio.com" class="contacts-link"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="item">
               <a href="tel:+110001111111" class="contacts-link"
                 >+11 (000) 111-11-11</a
               >
@@ -49,146 +51,176 @@
       </div>
     </header>
     <main>
-      <section>
-        <h1 class="visually-hidden">Our works</h1>
-        <ul class="filters list">
-          <li><button type="button" class="filters-button">All</button></li>
-          <li>
-            <button type="button" class="filters-button">Web Site</button>
-          </li>
-          <li><button type="button" class="filters-button">App</button></li>
-          <li><button type="button" class="filters-button">Design</button></li>
-          <li>
-            <button type="button" class="filters-button">Marketing</button>
-          </li>
-        </ul>
+      <section class="section works">
+        <div class="container">
+          <h1 class="visually-hidden">Our works</h1>
+          <ul class="filters list">
+            <li class="item">
+              <button type="button" class="filters-button">All</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filters-button">Web Site</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filters-button">App</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filters-button">Design</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filters-button">Marketing</button>
+            </li>
+          </ul>
 
-        <ul class="list works-list">
-          <li>
-            <a href="" class="work">
-              <img
-                src="./images/works/img1.jpg"
-                alt="Banking application
+          <ul class="list works-list">
+            <li class="works-item">
+              <a href="" class="work">
+                <img
+                  src="./images/works/img1.jpg"
+                  alt="Banking application
               interface"
-                width="360"
-                height="300"
-              />
-              <h2 class="title">Banking App Interface Concept</h2>
-              <p class="work-description">App</p></a
-            >
-          </li>
-          <li>
-            <a href="" class="work">
-              <img
-                src="./images/works/img2.jpg"
-                alt="Mobile reads the qr code
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                  <h2 class="work-title title">
+                    Banking App Interface Concept
+                  </h2>
+                  <p class="work-description">App</p>
+                </div></a
+              >
+            </li>
+            <li class="works-item">
+              <a href="" class="work">
+                <img
+                  src="./images/works/img2.jpg"
+                  alt="Mobile reads the qr code
               from the payment device"
-                width="360"
-                height="300"
-              />
-              <h2 class="title">Cashless Payment</h2>
-              <p class="work-description">Marketing</p></a
-            >
-          </li>
-          <li>
-            <a href="" class="work">
-              <img
-                src="./images/works/img3.jpg"
-                alt="Mobile and laptop"
-                width="360"
-                height="300"
-              />
-              <h2 class="title">Meditaion App</h2>
-              <p class="work-description">App</p></a
-            >
-          </li>
-          <li>
-            <a href="" class="work">
-              <img
-                src="./images/works/img4.jpg"
-                alt="Mobile and hands on the
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                  <h2 class="work-title title">Cashless Payment</h2>
+                  <p class="work-description">Marketing</p>
+                </div></a
+              >
+            </li>
+            <li class="works-item">
+              <a href="" class="work">
+                <img
+                  src="./images/works/img3.jpg"
+                  alt="Mobile and laptop"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                  <h2 class="work-title title">Meditaion App</h2>
+                  <p class="work-description">App</p>
+                </div></a
+              >
+            </li>
+            <li class="works-item">
+              <a href="" class="work">
+                <img
+                  src="./images/works/img4.jpg"
+                  alt="Mobile and hands on the
               wheel of a car"
-                width="360"
-                height="300"
-              />
-              <h2 class="title">Taxi Service</h2>
-              <p class="work-description">Marketing</p></a
-            >
-          </li>
-          <li>
-            <a href="" class="work">
-              <img
-                src="./images/works/img5.jpg"
-                alt="Five screen illustrations"
-                width="360"
-                height="300"
-              />
-              <h2 class="title">Screen Illustrations</h2>
-              <p class="work-description">Design</p></a
-            >
-          </li>
-          <li>
-            <a href="" class="work">
-              <img
-                src="./images/works/img6.jpg"
-                alt="Girl looking at mobile
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                  <h2 class="work-title title">Taxi Service</h2>
+                  <p class="work-description">Marketing</p>
+                </div></a
+              >
+            </li>
+            <li class="works-item">
+              <a href="" class="work">
+                <img
+                  src="./images/works/img5.jpg"
+                  alt="Five screen illustrations"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                  <h2 class="work-title title">Screen Illustrations</h2>
+                  <p class="work-description">Design</p>
+                </div></a
+              >
+            </li>
+            <li class="works-item">
+              <a href="" class="work">
+                <img
+                  src="./images/works/img6.jpg"
+                  alt="Girl looking at mobile
               phone"
-                width="360"
-                height="300"
-              />
-              <h2 class="title">Online Courses</h2>
-              <p class="work-description">Marketing</p></a
-            >
-          </li>
-          <li>
-            <a href="" class="work">
-              <img
-                src="./images/works/img7.jpg"
-                alt="Six Instagram stories"
-                width="360"
-                height="300"
-              />
-              <h2 class="title">Instagram Stories Concept</h2>
-              <p class="work-description">Design</p></a
-            >
-          </li>
-          <li>
-            <a href="" class="work">
-              <img
-                src="./images/works/img8.jpg"
-                alt="A bag of groceries and a
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                  <h2 class="work-title title">Online Courses</h2>
+                  <p class="work-description">Marketing</p>
+                </div></a
+              >
+            </li>
+            <li class="works-item">
+              <a href="" class="work">
+                <img
+                  src="./images/works/img7.jpg"
+                  alt="Six Instagram stories"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                  <h2 class="work-title title">Instagram Stories Concept</h2>
+                  <p class="work-description">Design</p>
+                </div></a
+              >
+            </li>
+            <li class="works-item">
+              <a href="" class="work">
+                <img
+                  src="./images/works/img8.jpg"
+                  alt="A bag of groceries and a
               girl"
-                width="360"
-                height="300"
-              />
-              <h2 class="title">Organic Food</h2>
-              <p class="work-description">Web Site</p></a
-            >
-          </li>
-          <li>
-            <a href="" class="work">
-              <img
-                src="./images/works/img9.jpg"
-                alt="Man pouring coffee"
-                width="360"
-                height="300"
-              />
-              <h2 class="title">Fresh Coffee</h2>
-              <p class="work-description">Web Site</p></a
-            >
-          </li>
-        </ul>
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                  <h2 class="work-title title">Organic Food</h2>
+                  <p class="work-description">Web Site</p>
+                </div></a
+              >
+            </li>
+            <li class="works-item">
+              <a href="" class="work">
+                <img
+                  src="./images/works/img9.jpg"
+                  alt="Man pouring coffee"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                  <h2 class="work-title title">Fresh Coffee</h2>
+                  <p class="work-description">Web Site</p>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Footer -->
     <footer>
-      <a href="./index.html" class="footer-logo"
-        ><span class="logo-accent">Web</span>Studio</a
-      >
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="footer-logo"
+          ><span class="logo-accent">Web</span>Studio</a
+        >
+        <p class="footer-description">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
