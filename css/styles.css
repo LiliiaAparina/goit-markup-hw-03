@@ -282,7 +282,6 @@ p {
 
 .team-item {
     width: 264px;
-    padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
 
     background-color: var(--primary-white-color);
@@ -297,7 +296,11 @@ p {
 
 .team-item img {
     display: block;
-    margin-bottom: 32px;
+}
+
+.team-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* Works section */
@@ -345,7 +348,7 @@ p {
     flex-wrap: wrap;
 }
 
-.works-list .works-link {
+.works-link {
     text-decoration: none;
 }
 
